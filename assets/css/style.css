@@ -60,6 +60,7 @@ main {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url("../img/capa-house.jpg");
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
@@ -67,10 +68,39 @@ main {
   align-items: flex-start;
 }
 
-.movie-main .description {
-  margin-bottom: 90px;
+.movie-main .container {
+  padding: 20px;
 }
 
 .movie-main .title {
   font-size: 40px;
+  margin-top: 15%;
+}
+
+.movie-main .description {
+  margin-bottom: 90px;
+  margin-top: 10px;
+}
+
+.movie-main .btn-group {
+  display: flex;
+  gap: 15px;
+}
+
+.movie-main .btn-group .btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.movie-main .btn-group .btn:hover {
+  background-color: #fff;
+  color: #141414;
+}
+
+.movie-main .btn-group .btn .fas {
+  margin-right: 8px;
 }
