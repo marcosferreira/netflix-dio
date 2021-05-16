@@ -68,7 +68,7 @@ main {
   align-items: flex-start;
 }
 
-.movie-main .container {
+.container {
   padding: 20px;
 }
 
@@ -82,12 +82,12 @@ main {
   margin-top: 10px;
 }
 
-.movie-main .btn-group {
+.btn-group {
   display: flex;
   gap: 15px;
 }
 
-.movie-main .btn-group .btn {
+.btn-group .btn {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: #fff;
@@ -96,11 +96,15 @@ main {
   transition: 0.3s ease all;
 }
 
-.movie-main .btn-group .btn:hover {
+.btn-group .btn:hover {
   background-color: #fff;
   color: #141414;
 }
 
-.movie-main .btn-group .btn .fas {
+.btn-group .btn .fas {
   margin-right: 8px;
+}
+
+.carrosel-movies {
+  margin-top: 5px;
 }
